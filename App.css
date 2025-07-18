@@ -1,0 +1,44 @@
+.chat-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.messages {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+
+.message {
+  margin: 5px 0;
+}
+
+.own {
+  text-align: right;
+}
+
+.timestamp {
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.input-area {
+  display: flex;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.input-area button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
